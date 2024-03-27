@@ -1,0 +1,31 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	width: 90%;
+	margin: 20px auto;
+	border: 1px solid blue;
+}
+.row {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.box {
+	width: 70px;
+	height: 70px;
+	margin-bottom: 1rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: 600;
+}
+.even {
+	background-color: blue;
+}
+.odd {
+	background-color: brown;
+}
