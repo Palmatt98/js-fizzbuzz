@@ -23,9 +23,18 @@
 	align-items: center;
 	font-weight: 600;
 }
-.even {
+.pari {
 	background-color: blue;
 }
-.odd {
+.dispari {
 	background-color: brown;
+}
+.fizz {
+	background-color: green;
+}
+.buzz {
+	background-color: blueviolet;
+}
+.fizzbuzz {
+	background-color: aquamarine;
 }
