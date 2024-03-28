@@ -1,40 +1,22 @@
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
-
-.container {
-	width: 90%;
-	margin: 20px auto;
-	border: 1px solid blue;
-}
-.row {
-	display: flex;
-	justify-content: space-between;
-	flex-wrap: wrap;
+body {
+	background-color: #083b4c;
 }
 .box {
 	width: 70px;
 	height: 70px;
-	margin-bottom: 1rem;
+	margin: 10px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	font-weight: 600;
-}
-.pari {
-	background-color: blue;
-}
-.dispari {
-	background-color: brown;
+	background-color: #1389b2;
 }
 .fizz {
-	background-color: green;
+	background-color: #0bd6a1;
 }
 .buzz {
-	background-color: blueviolet;
+	background-color: #ffd166;
 }
 .fizzbuzz {
-	background-color: aquamarine;
+	background-color: #f0466f;
 }
